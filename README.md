@@ -55,23 +55,25 @@ This is a test task i created by specific requirements. It includes 3 tasks (pre
 __Problem #3: Responsive Design__
 
 Create a web page using the attached file - “games.json” - and the following mockup: image example
+![alt tag](/docs/web-api-example.png?raw=true "Primary web API interface")
 
   __Functionality__
-    1. Each category should display the game items belong to it from the JSON.
-    2. Each game item should display the game name and game thumbnail
-    3. Game thumbnail URL should be build from the game name as follow:
-      a. Convert the game name to lower case
-      b. Remove any non-alphanumeric characters from the name (spaces, commas, quotes, etc.)
-      c. Append “-minipod.jpg” at the end of the name.
-      d. Append the resulting name to the following URL: 
-        http://cacheimg.majesticslots.com/images/www/games/minipods/
-        Example: For the game “Football Frenzy!” the final URL should be
-        http://cacheimg.majesticslots.com/images/www/games/minipods/footballfrenzy-minipod.jpg
-    4. When hovering over a game, there should be a “Play Now” button with “Play” icon over the game thumbnail.
-    5. Clicking on a game should call the following JavaScript:
-      openGame([game_name], [game_code], [machine_id], [denominations], [hands]);
-      The values should be taken from the JSON file for each game.
-      You can use either JavaScript or PHP (or other language you like) to render the above.
+  
+  1. Each category should display the game items belong to it from the JSON.
+  2. Each game item should display the game name and game thumbnail
+  3. Game thumbnail URL should be build from the game name as follow:
+    a. Convert the game name to lower case
+    b. Remove any non-alphanumeric characters from the name (spaces, commas, quotes, etc.)
+    c. Append “-minipod.jpg” at the end of the name.
+    d. Append the resulting name to the following URL: 
+      http://cacheimg.majesticslots.com/images/www/games/minipods/
+      Example: For the game “Football Frenzy!” the final URL should be
+      http://cacheimg.majesticslots.com/images/www/games/minipods/footballfrenzy-minipod.jpg
+  4. When hovering over a game, there should be a “Play Now” button with “Play” icon over the game thumbnail.
+  5. Clicking on a game should call the following JavaScript:
+    openGame([game_name], [game_code], [machine_id], [denominations], [hands]);
+    The values should be taken from the JSON file for each game.
+    You can use either JavaScript or PHP (or other language you like) to render the above.
 
 __My Solution:__
 Implemented logic to parse Online Games
@@ -118,7 +120,7 @@ Installation:
 Project preview:
 ----------------
   1. User form error state
-  ![alt tag](/docs/web-api-example.png.png?raw=true "Primary web API interface")
+  ![alt tag](/docs/web-api-example.png?raw=true "Primary web API interface")
 
 Future improovements:
 ---------------------
