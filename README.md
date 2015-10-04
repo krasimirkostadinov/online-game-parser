@@ -43,8 +43,10 @@ Requirements:
   Class specific requirements i've listed in Contact.php file.
 
 
-  ## Problem 2: OOP
+  ## Problem 2:
   
+  OOP
+    
   Please write classes structure (in the language of your choosing, such as: C#, JAVA, JavaScript, PHP) that describes the following objects and their properties/functions.
   
     1. Dolphin
@@ -97,7 +99,7 @@ Create a web page using the attached file - “games.json” - and the following
     You can use either JavaScript or PHP (or other language you like) to render the above.
 
 __My Solution:__
-Implemented logic to parse Online Games data from JSON file. I use a class autoloader by PSR-4 specification. Created responsive design and helper JsonParser.php class.
+See folder3 namespace. Implemented logic to parse Online Games data from JSON file. I use a class autoloader by PSR-4 specification. Created responsive design and helper JsonParser.php class.
 
   Project preview:
   ----------------
@@ -135,7 +137,7 @@ Implemented logic to parse Online Games data from JSON file. I use a class autol
     - HOST_PATH - host path (also URL) to your local project. This variable is used for loading dynamic libraries and files.
 
 
-## Future improovements:
+## Future improvements:
 
   - Map data from JSON file to different related Entity and class objects.
   - Optimise user interface and responsive design.
